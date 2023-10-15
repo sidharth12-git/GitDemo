@@ -43,6 +43,7 @@ public class Assignment4 {
         	System.out.println("Expected Text present in alert message");
 		} else {
 			System.out.println("text not present in alert message");
+			System.out.println("text not present in alert message");
 		}
         // Accepting alert
 //        alert.accept();

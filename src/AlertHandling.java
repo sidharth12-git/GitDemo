@@ -28,6 +28,7 @@ public class AlertHandling {
 			al.accept();
 		} else {
 			System.out.println("text didn't match ");
+			System.out.println("text didn't match ");
 		}
 		// confirmbtn
 		driver.findElement(By.id("confirmbtn")).click();
