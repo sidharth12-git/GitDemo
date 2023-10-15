@@ -29,6 +29,7 @@ public class WindowHandlesAssignment {
 		System.out.println(driver.findElement(By.tagName("h3")).getText());
 		driver.switchTo().window(parentId);
 		System.out.println(driver.findElement(By.tagName("h3")).getText());
+		System.out.println(driver.findElement(By.tagName("h3")).getText());
 
 	}
 

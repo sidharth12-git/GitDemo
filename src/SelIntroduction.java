@@ -36,7 +36,9 @@ public class SelIntroduction {
 		driver.get("https://rahulshettyacademy.com/");
 		String title =  driver.getTitle();
 		System.out.println(title);
+		System.out.println(title);
 		String currentUrl = driver.getCurrentUrl();
+		System.out.println(currentUrl);
 		System.out.println(currentUrl);
 		
 		System.out.println("Page source: " + driver.getPageSource());
