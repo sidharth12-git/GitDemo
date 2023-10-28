@@ -36,6 +36,8 @@ public class Addtocartveg {
 		//span.promoInfo
 		w.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("span.promoInfo")));
 		System.out.println(driver.findElement(By.cssSelector("span.promoInfo")).getText());
+		System.out.println(driver.findElement(By.cssSelector("span.promoInfo")).getText());
+		System.out.println(driver.findElement(By.cssSelector("span.promoInfo")).getText());
 	}
 
 	public static void addItems(WebDriver driver, String[] itemsNeededArray) {
